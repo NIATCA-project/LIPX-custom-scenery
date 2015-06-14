@@ -1,0 +1,110 @@
+LIPX (Verona/Villafranca) custom scenery
+----------------------------------------
+HOW TO INSTALL ON MICROSOFT® WINDOWS®:
+1) Unzip the package to a directory of your choice.
+2) Click on Start->Run, type "C:\Users\<your username>\AppData\Roaming\
+   flightgear.org\" and click OK; replace "<your username>" with your
+   username.
+3) Delete all files named "navdata_x_y.cache" (where "x" and "y" are
+   numbers) and "navdata.cache". This will force FlightGear to reload
+   the scenery data on next launch.
+4) Open FlightGear Launcher and go to the first page.
+5) Click on the "Add" button next to the FG_SCENERY box and choose the
+   directory where you unzipped the scenery.
+6) Using the up arrow next to the FG_SCENERY box, put the newly added
+   directory to the top of the list, so that FlightGear will use the
+   custom scenery instead of the default one.
+7) Launch FlightGear as usual.
+
+HOW TO INSTALL ON MAC OS X:
+1) Open the FlightGear Launcher and choose Advanced Features -> Others
+   -> Install Add-On data.
+2) Select the scenery ZIP file.
+
+HOW TO INSTALL ON LINUX:
+1) Unzip the package to a directory of your choice.
+2) Delete the files ~/.flightgear/navdata_x_y.cache (where "x" and "y" are
+   numbers) and ~/.flightgear/navdata.cache.
+3) Add the full path to the directory where you unzipped the scenery to the
+   --fg-scenery command line parameter when launching FlightGear. Make sure
+   the custom scenery path is the first one in the list.
+
+
+HOW TO GIVE FEEDBACK/GET THE LATEST RELEASE:
+Visit the following FlightGear forum thread: <http://forum.flightgear.org/
+viewtopic.php?f=5&t=21576>. Latest news and downloads are in the first post.
+
+
+COPYRIGHT
+Copyright © 2013-2015 Alessandro Menti
+This scenery is free; you can redistribute it and/or modify it under the terms
+of the GNU General Public License as published by the Free Software Foundation;
+either version 2 of the License, or (at your option) any later version.
+
+This scenery is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this scenery; if not, write to the Free Software Foundation, Inc., 59 Temple
+Place, Suite 330, Boston, MA 02111-1307 USA, or visit <http://www.gnu.org/
+licenses/>.
+
+Portions of this work are based on:
+- OpenStreetMap data - copyright © OpenStreetMap contributors, see the full
+  license terms at <http://opendatacommons.org/licenses/odbl/> and its copyright
+  page at <http://www.openstreetmap.org/copyright>;
+- Corine 2006 land cover data - copyright © European Environment Agency (EEA),
+  full license terms available at <http://www.eea.europa.eu/legal/copyright>;
+- SRTM-3 elevation data, available at <http://www2.jpl.nasa.gov/srtm/index.html>;
+- Robin Peel's X-Plane data (<http://data.x-plane.com/>), released under the
+  GNU GPL.
+
+
+CHANGELOG
+2015-04-12:
+- Added airports in the same 1x1 tile as LIPX so that they are shown correctly
+  even if the complete tile from TerraSync is not installed.
+- Added OSM street, rail and river data.
+2015-03-19 (RC2):
+- Removed ILS and threshold XML files as they caused the ILS and runway to
+  disappear from the map.
+2015-03-19 (RC1):
+- Apron stands completed, apron roadways added.
+- Airport signs redone from scratch.
+- Fixed wrong tag in the ILS description file.
+- Fixed missing taxiway centerlines on B, C, F.
+- Ground network created.
+2015-02-01:
+- Closed some holes in the apron (where the terminal buildings are meant to be).
+- Taxi signs repositioned/added and corrected.
+- Markings on the apron are being done.
+- All parking positions added.
+2014-09-03:
+- Fixed some syntax errors in signs to allow the airport to be uploaded to the
+  X-Plane Airport Scenery Gateway.
+- Added markings (old stands) on the first and second "loops". Markings on the
+  third loop are in progress.
+2014-04-18:
+- Fixed the ILS service road position.
+- Added the apron for the service areas (cargo and technological terminals).
+- Fixed runway threshold positions.
+- Corrected the approach lights types.
+- Smoothed some taxiways.
+- Added taxiway markings, centerline and edge lights, plus some signs - many of
+  them still need to be put in the correct position and/or smoothed.
+- Began to add parking stands to the apron. Some parking positions were added to
+  the XML file, all of them will be finalized after work on the stands is
+  completed.
+- Adjusted taxiway texture headings where necessary.
+- Added right airport beacon position.
+- Fixed ILS/tower positions (the ILS still needs a bit of work).
+2014-01-17:
+- Third "loop" and service streets completed.
+- Airport boundary, PAPI, windsocks added.
+- Radio frequencies updated to match the real ones.
+2013-12-26:
+- Second "loop" between taxiways C and D completed, work on the third one
+  (between taxiways A and B) in progress.
+2013-12-16:
+- Apron and runway imported from OSM, work on the taxiways in progress.
