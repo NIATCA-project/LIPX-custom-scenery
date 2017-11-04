@@ -56,6 +56,9 @@ work/Airport: work data/clc06v16_airport
 work/BarrenCover: work data/clc06v16_barrencover
 	$(TGROOT)/bin/ogr-decode --line-width 10 --continue-on-errors --area-type BarrenCover "work/BarrenCover" "data/clc06v16_barrencover"
 
+work/Bog: work data/clc06v16_bog
+	$(TGROOT)/bin/ogr-decode --line-width 10 --continue-on-errors --area-type Bog "work/Bog" "data/clc06v16_bog"
+
 work/ComplexCrop: work data/clc06v16_complexcrop
 	$(TGROOT)/bin/ogr-decode --line-width 10 --continue-on-errors --area-type ComplexCrop "work/ComplexCrop" "data/clc06v16_complexcrop"
 
@@ -128,95 +131,95 @@ work/Scrub: work data/clc06v16_scrub
 work/Town: work data/clc06v16_town
 	$(TGROOT)/bin/ogr-decode --line-width 10 --continue-on-errors --area-type Town "work/Town" "data/clc06v16_town"
 
-work/Airport: work data/clc06v16_airport
+work/Transport: work data/clc06v16_transport
 	$(TGROOT)/bin/ogr-decode --line-width 10 --continue-on-errors --area-type Transport "work/Transport" "data/clc06v16_transport"
 
-work/Airport: work data/clc06v16_airport
+work/Urban: work data/clc06v16_urban
 	$(TGROOT)/bin/ogr-decode --line-width 10 --continue-on-errors --area-type Urban "work/Urban" "data/clc06v16_urban"
 
-work/Airport: work data/clc06v16_airport
+work/Vineyard: work data/clc06v16_vineyard
 	$(TGROOT)/bin/ogr-decode --line-width 10 --continue-on-errors --area-type Vineyard "work/Vineyard" "data/clc06v16_vineyard"
 
-work/Airport: work data/clc06v16_airport
+work/Watercourse: work data/clc06v16_watercourse
 	$(TGROOT)/bin/ogr-decode --line-width 10 --continue-on-errors --area-type Watercourse "work/Watercourse" "data/clc06v16_watercourse"
 
-work/Airport: work data/clc06v16_airport
+work/Canal: work data/osm_canal
 	$(TGROOT)/bin/ogr-decode --line-width 10 --continue-on-errors --area-type Canal "work/Canal" "data/osm_canal"
 
-work/Airport: work data/clc06v16_airport
+work/Drain: work data/osm_drain
 	$(TGROOT)/bin/ogr-decode --line-width 4 --continue-on-errors --area-type Watercourse "work/Drain" "data/osm_drain"
 
-work/Airport: work data/clc06v16_airport
+work/LightRail: work data/osm_railroad
 	$(TGROOT)/bin/ogr-decode --line-width 10 --continue-on-errors --area-type Railroad "work/LightRail" "data/osm_light_rail"
 
-work/Airport: work data/clc06v16_airport
+work/Raceway: work data/osm_raceway
 	$(TGROOT)/bin/ogr-decode --line-width 10 --continue-on-errors --area-type Construction "work/Raceway" "data/osm_raceway"
 
-work/Airport: work data/clc06v16_airport
+work/Rail: work data/osm_rail
 	$(TGROOT)/bin/ogr-decode --line-width 12 --continue-on-errors --area-type Railroad "work/Rail" "data/osm_rail"
 
-work/Airport: work data/clc06v16_airport
+work/River: work data/osm_river
 	$(TGROOT)/bin/ogr-decode --line-width 10 --continue-on-errors --area-type River "work/River" "data/osm_river"
 
-work/Airport: work data/clc06v16_airport
+work/Riverbank: work data/osm_riverbank
 	$(TGROOT)/bin/ogr-decode --line-width 10 --continue-on-errors --area-type Estuary "work/Riverbank" "data/osm_riverbank"
 
-work/Airport: work data/clc06v16_airport
+work/Stream: work data/osm_stream
 	$(TGROOT)/bin/ogr-decode --line-width 10 --continue-on-errors --area-type Stream "work/Stream" "data/osm_stream"
 
-work/Airport: work data/clc06v16_airport
+work/Subway: work data/osm_subway
 	$(TGROOT)/bin/ogr-decode --line-width 10 --continue-on-errors --area-type Railroad "work/Subway" "data/osm_subway"
 
-work/Airport: work data/clc06v16_airport
+work/Tram: work data/osm_tram
 	$(TGROOT)/bin/ogr-decode --line-width 5 --continue-on-errors --area-type Railroad "work/Tram" "data/osm_tram"
 
-work/Airport: work data/clc06v16_airport
+work/Bridleway: work data/osm_bridleway
 	$(TGROOT)/bin/ogr-decode --line-width 3 --continue-on-errors --area-type Road-Tertiary "work/Bridleway" "data/osm_bridleway"
 
-work/Airport: work data/clc06v16_airport
+work/Cycleway: work data/osm_cycleway
 	$(TGROOT)/bin/ogr-decode --line-width 2 --continue-on-errors --area-type Road-Pedestrian "work/Cycleway" "data/osm_cycleway"
 
-work/Airport: work data/clc06v16_airport
+work/Footway: work data/osm_footway
 	$(TGROOT)/bin/ogr-decode --line-width 2 --continue-on-errors --area-type Road-Pedestrian "work/Footway" "data/osm_footway"
 
-work/Airport: work data/clc06v16_airport
+work/Motorway: work data/osm_motorway
 	$(TGROOT)/bin/ogr-decode --line-width 12 --continue-on-errors --area-type Road-Motorway "work/Motorway" "data/osm_motorway"
 
-work/Airport: work data/clc06v16_airport
+work/Pedestrian: work data/osm_pedestrian
 	$(TGROOT)/bin/ogr-decode --line-width 2 --continue-on-errors --area-type Road-Pedestrian "work/Pedestrian" "data/osm_pedestrian"
 
-work/Airport: work data/clc06v16_airport
+work/RoadPrimary: work data/osm_primary
 	$(TGROOT)/bin/ogr-decode --line-width 12 --continue-on-errors --area-type Road-Primary "work/RoadPrimary" "data/osm_primary"
 
-work/Airport: work data/clc06v16_airport
+work/RoadSecondary: work data/osm_secondary
 	$(TGROOT)/bin/ogr-decode --line-width 10 --continue-on-errors --area-type Road-Secondary "work/RoadSecondary" "data/osm_secondary"
 
-work/Airport: work data/clc06v16_airport
+work/RoadTertiary: work data/osm_tertiary
 	$(TGROOT)/bin/ogr-decode --line-width 10 --continue-on-errors --area-type Road-Tertiary "work/RoadTertiary" "data/osm_tertiary"
 
-work/Airport: work data/clc06v16_airport
+work/RoadResidential: work data/osm_residential
 	$(TGROOT)/bin/ogr-decode --line-width 7 --continue-on-errors --area-type Road-Residential "work/RoadResidential" "data/osm_residential"
 
-work/Airport: work data/clc06v16_airport
+work/RoadService: work data/osm_service
 	$(TGROOT)/bin/ogr-decode --line-width 7 --continue-on-errors --area-type Road-Service "work/RoadService" "data/osm_service"
 
-work/Airport: work data/clc06v16_airport
+work/Steps: work data/osm_steps
 	$(TGROOT)/bin/ogr-decode --line-width 2 --continue-on-errors --area-type Road-Steps "work/Steps" "data/osm_steps"
 
-work/Airport: work data/clc06v16_airport
+work/Track: work data/osm_track
 	$(TGROOT)/bin/ogr-decode --line-width 3 --continue-on-errors --area-type Road-Tertiary "work/Track" "data/osm_track"
 
-work/Airport: work data/clc06v16_airport
+work/Trunk: work data/osm_trunk
 	$(TGROOT)/bin/ogr-decode --line-width 12 --continue-on-errors --area-type Road-Trunk "work/Trunk" "data/osm_trunk"
 
-work/Airport: work data/clc06v16_airport
+work/Unclassified: work data/osm_unclassified
 	$(TGROOT)/bin/ogr-decode --line-width 7 --continue-on-errors --area-type Road-Unclassified "work/Unclassified" "data/osm_unclassified"
 
-work/Airport: work data/clc06v16_airport
+work/Landmass: work data/v0_landmass
 	$(TGROOT)/bin/ogr-decode --line-width 10 --continue-on-errors --area-type Default "work/Landmass" "data/v0_landmass"
 
 # Construct the scenery
 output: work
-	$(TGROOT)/bin/tg-construct --output-dir=output --work-dir=work --min-lon=$(MINLON) --max-lon=$(MAXLON) --min-lat=$(MINLAT) --max-lat=$(MAXLAT) --threads Airport AirportArea AirportObj BarrenCover Bridleway Canal ComplexCrop Construction CropGrass Cycleway DeciduousForest Drain DryCrop EvergreenForest Footway GolfCourse Grassland Greenspace Heath Industrial Lake Landmass LightRail Marsh MixedCrop MixedForest Motorway NaturalCrop Olives OpenMining Orchard Pedestrian Raceway Rail Rice River Riverbank RoadPrimary RoadResidential RoadSecondary RoadService RoadTertiary Rock Sand Scrub SRTM-1 Steps Stream Subway Town Track Tram Transport Trunk Unclassified Urban Vineyard Watercourse
+	$(TGROOT)/bin/tg-construct --output-dir=output --work-dir=work --min-lon=$(MINLON) --max-lon=$(MAXLON) --min-lat=$(MINLAT) --max-lat=$(MAXLAT) --threads Airport AirportArea AirportObj BarrenCover Bog Bridleway Canal ComplexCrop Construction CropGrass Cycleway DeciduousForest Drain DryCrop EvergreenForest Footway GolfCourse Grassland Greenspace Heath Industrial Lake Landmass LightRail Marsh MixedCrop MixedForest Motorway NaturalCrop Olives OpenMining Orchard Pedestrian Raceway Rail Rice River Riverbank RoadPrimary RoadResidential RoadSecondary RoadService RoadTertiary Rock Sand Scrub SRTM-1 Steps Stream Subway Town Track Tram Transport Trunk Unclassified Urban Vineyard Watercourse
 
 .PHONY: output work clean all
